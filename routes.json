@@ -1,14 +1,15 @@
 {
-    "routes" : [
-        {
-            "route" : "/{*any}",
-            "rewrite" : "/index.html"
-        }
-    ],
-        "responseOverrides" : {
-        "404": {
-            "statusCode" : 404,
-                "rewrite" : "/index.html"
-        }
-    }
-}
+    "routes": [
+      {
+        "route": "/tienda",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/:catchall*",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+    ]
+  }
+  
