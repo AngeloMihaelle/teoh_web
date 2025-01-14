@@ -1,15 +1,24 @@
 {
     "routes": [
-      {
-        "route": "/tienda",
-        "serve": "/index.html",
-        "statusCode": 200
-      },
-      {
-        "route": "/:catchall*",
-        "serve": "/index.html",
-        "statusCode": 200
-      }
+        {
+            "route": "/login",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/tienda",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/admin",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/{*any}",
+            "serve": "/index.html",
+            "statusCode": 200
+        }
     ]
-  }
-  
+}
