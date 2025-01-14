@@ -4,7 +4,7 @@ import Blog from '../layouts/Blog.vue'; // Blog component
 import Casos from '../layouts/Casos.vue'; // Casos component
 import Tienda from '../layouts/Tienda.vue';
 import Login from '../layouts/Login.vue'; // Login component
-import MainAdmin from '../layouts/Main_Admin.vue'; // MainAdmin component
+import MainAdmin from '../layouts/Main_admin.vue'; // MainAdmin component
 import LoginAdmin from '../layouts/LoginAdmin.vue'; // LoginAdmin component
 import BlogAdmin from '../layouts/BlogAdmin.vue'; // BlogAdmin component
 import CasosAdmin from '../layouts/CasosAdmin.vue';
