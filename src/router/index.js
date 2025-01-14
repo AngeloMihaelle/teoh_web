@@ -77,7 +77,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(), // Ensure history mode is used
+    history: createWebHistory("/"), // Ensure history mode is used
     routes
   });
 
