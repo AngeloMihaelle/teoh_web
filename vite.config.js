@@ -14,5 +14,6 @@ export default defineConfig({
                 rewrite: (path) => path.replace(/^\/api/, "") // Removes the '/api' prefix
             }
         }
-    }
+    },
+    publicDir: 'public',
 });
